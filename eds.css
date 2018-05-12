@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    margin-top: 10px;
+}
+#menu ul{
+    list-style-type: none;
+    background: rgb(37,119,26);
+    text-align: center;
+}
+#menu ul li{
+    color: #f1f1f1;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+#menu ul li a{
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+#menu ul li a:hover{
+    color: coral;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.0;
+}
+
+.columnside{
+    float: left;
+    width: 80%;
+    padding: 15px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.columnside a{
+    text-decoration: none;
+    color: black;
+}
+.column.side{
+    width: 30%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align:left;
+    font-size: 12px;
+}
+.footer table{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer td p{
+    line-height: 0.8;
+    font-size: 13px;
+}
+.footer img{
+    width: 50px;
+    height: 50px;
+}
+#search{
+    width: 220px;
+    border-radius: 10px;
+}
+
