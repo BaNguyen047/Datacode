@@ -4,9 +4,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("input").focus(function(){
-        $("input").change(function(){
-        $("input").hide();})
+    $("input").keyup(function(){
+        
+        $("input").hide();
     });
 	  $("span").mouseenter(function(){
         $("span").hide();
